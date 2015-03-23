@@ -1,0 +1,141 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=7176, tid=6104
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_71-b14) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.71-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002f12800):  JavaThread "Unknown thread" [_thread_in_vm, id=6104, stack(0x0000000002df0000,0x0000000002ef0000)]
+
+Stack: [0x0000000002df0000,0x0000000002ef0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002f12800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6104, stack(0x0000000002df0000,0x0000000002ef0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x0000000002f58820 done
+Event: 0.010 loading class 0x0000000002f58240 done
+Event: 0.010 loading class 0x0000000002f58220
+Event: 0.010 loading class 0x0000000002f60380
+Event: 0.010 loading class 0x0000000002f60380 done
+Event: 0.010 loading class 0x0000000002f603b0
+Event: 0.011 loading class 0x0000000002f603b0 done
+Event: 0.011 loading class 0x0000000002f603e0
+Event: 0.011 loading class 0x0000000002f603e0 done
+Event: 0.011 loading class 0x0000000002f58220 done
+
+
+Dynamic libraries:
+0x00007ff6aa4e0000 - 0x00007ff6aa513000 	C:\Program Files\Java\jdk1.7.0_71\bin\javaw.exe
+0x00007fffb1600000 - 0x00007fffb17a6000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fffb0720000 - 0x00007fffb085a000 	C:\Windows\system32\KERNEL32.DLL
+0x00007fffaed70000 - 0x00007fffaee7f000 	C:\Windows\system32\KERNELBASE.dll
+0x00007fffad550000 - 0x00007fffad5d8000 	C:\Windows\system32\apphelp.dll
+0x00007fff96cb0000 - 0x00007fff96cff000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007fffaefc0000 - 0x00007fffaf067000 	C:\Windows\system32\msvcrt.dll
+0x00007fffae7e0000 - 0x00007fffae80b000 	C:\Windows\SYSTEM32\SspiCli.dll
+0x00007fffb0680000 - 0x00007fffb06d1000 	C:\Windows\system32\SHLWAPI.dll
+0x00007fffb1470000 - 0x00007fffb15e1000 	C:\Windows\system32\USER32.dll
+0x00007fffb0dd0000 - 0x00007fffb0f48000 	C:\Windows\system32\ole32.dll
+0x00007fffaf0d0000 - 0x00007fffb04df000 	C:\Windows\system32\SHELL32.dll
+0x00007fffadf30000 - 0x00007fffadf4e000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007fffb11d0000 - 0x00007fffb1275000 	C:\Windows\system32\ADVAPI32.dll
+0x00007fffa2c10000 - 0x00007fffa2c2b000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007fffaee80000 - 0x00007fffaefb7000 	C:\Windows\system32\RPCRT4.dll
+0x00007fffb1170000 - 0x00007fffb11c7000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007fffb0bf0000 - 0x00007fffb0dc6000 	C:\Windows\SYSTEM32\combase.dll
+0x00007fffb1020000 - 0x00007fffb1164000 	C:\Windows\system32\GDI32.dll
+0x00007fffae970000 - 0x00007fffae984000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007fffacfa0000 - 0x00007fffad03f000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007fffb06e0000 - 0x00007fffb0714000 	C:\Windows\system32\IMM32.DLL
+0x00007fffb0860000 - 0x00007fffb0999000 	C:\Windows\system32\MSCTF.dll
+0x00007fffae930000 - 0x00007fffae95f000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll
+0x00007fffac3a0000 - 0x00007fffac3ff000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x00007fffb1280000 - 0x00007fffb1454000 	C:\Windows\system32\SETUPAPI.dll
+0x00007fffaec20000 - 0x00007fffaec6a000 	C:\Windows\system32\CFGMGR32.dll
+0x00007fffac350000 - 0x00007fffac396000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x00007fffacb10000 - 0x00007fffacd6a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.17031_none_6242a4b3ecbb55a1\COMCTL32.dll
+0x00007fffaaf30000 - 0x00007fffaaf45000 	C:\Windows\SYSTEM32\NETAPI32.dll
+0x00007fffadbd0000 - 0x00007fffadbdc000 	C:\Windows\SYSTEM32\netutils.dll
+0x00007fffae5a0000 - 0x00007fffae5c5000 	C:\Windows\SYSTEM32\srvcli.dll
+0x00007fffaaa80000 - 0x00007fffaaa96000 	C:\Windows\SYSTEM32\wkscli.dll
+0x00007fffa7150000 - 0x00007fffa7167000 	C:\Windows\SYSTEM32\SAMCLI.DLL
+0x00007fffa71a0000 - 0x00007fffa73e8000 	C:\Windows\SYSTEM32\WININET.dll
+0x00007fffa73f0000 - 0x00007fffa76b7000 	C:\Windows\SYSTEM32\iertutil.dll
+0x00007fffb0580000 - 0x00007fffb05d8000 	C:\Windows\system32\WS2_32.dll
+0x00007fffb0510000 - 0x00007fffb0519000 	C:\Windows\system32\NSI.dll
+0x00007fffa8700000 - 0x00007fffa8729000 	C:\Windows\SYSTEM32\IPHLPAPI.DLL
+0x00007fffa8f50000 - 0x00007fffa8f5a000 	C:\Windows\SYSTEM32\WINNSI.DLL
+0x00007fff93670000 - 0x00007fff9368f000 	C:\Windows\SYSTEM32\AVIFIL32.dll
+0x00007fffac060000 - 0x00007fffac07f000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fff93650000 - 0x00007fff9366b000 	C:\Windows\SYSTEM32\MSACM32.dll
+0x00007fff93620000 - 0x00007fff93649000 	C:\Windows\SYSTEM32\MSVFW32.dll
+0x00007fffac020000 - 0x00007fffac04a000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007fffad680000 - 0x00007fffad6a6000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x00007fffb0f50000 - 0x00007fffb1011000 	C:\Windows\system32\OLEAUT32.dll
+0x00007fffaea40000 - 0x00007fffaec1f000 	C:\Windows\system32\CRYPT32.dll
+0x00007fffaea20000 - 0x00007fffaea32000 	C:\Windows\system32\MSASN1.dll
+0x0000000068350000 - 0x0000000068422000 	C:\Program Files\Java\jdk1.7.0_71\jre\bin\msvcr100.dll
+0x0000000067b70000 - 0x0000000068343000 	C:\Program Files\Java\jdk1.7.0_71\jre\bin\server\jvm.dll
+0x00007fffa3c40000 - 0x00007fffa3c49000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007fffb1460000 - 0x00007fffb1467000 	C:\Windows\system32\PSAPI.DLL
+0x0000000067b60000 - 0x0000000067b6f000 	C:\Program Files\Java\jdk1.7.0_71\jre\bin\verify.dll
+0x0000000067b30000 - 0x0000000067b58000 	C:\Program Files\Java\jdk1.7.0_71\jre\bin\java.dll
+0x0000000067b10000 - 0x0000000067b25000 	C:\Program Files\Java\jdk1.7.0_71\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath/p:D:\FRMT\eclipse_android\sdk\platforms\android-20\android.jar 
+java_command: org.imsglobal.main.XmlToObject
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.7.0_71
+USERNAME=Veeranna
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 8280060k(4942748k free), swap 9590780k(5648132k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.71-b01) for windows-amd64 JRE (1.7.0_71-b14), built on Sep 26 2014 16:16:12 by "java_re" with unknown MS VC++:1600
+
+time: Thu Jan 22 18:34:58 2015
+elapsed time: 0 seconds
+

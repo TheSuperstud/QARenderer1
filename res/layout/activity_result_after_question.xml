@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="User Id: 	"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/userId"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="User Response: 	"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/userResponse"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Correct Response: 	"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/userCorrectResponse"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Question Category: 	"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/questionCategory"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Response Correctness: 	"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/responseCorrectness"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Test Date: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/testDate"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Entry Time: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/entryTime"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="End Time: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/endTime"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Duration Accumulated: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/durationAccumulated"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Initialized: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/initialized"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Responded: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/responded"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Session Status: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/sessionStatus"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Num Attempts: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/numAttempts"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Completion Status: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/completionStatus"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Score: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/score"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+    <TableRow android:layout_width="match_parent"
+        	  android:layout_height="wrap_content"
+        	  android:orientation="horizontal">
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:text="Response: 		"
+            	  android:textSize="17dp"
+            	  />
+        <TextView android:layout_height="wrap_content"
+            	  android:layout_width="wrap_content"
+            	  android:id="@+id/response"
+            	  android:textSize="17dp"
+            	  />
+    </TableRow>
+</TableLayout>
